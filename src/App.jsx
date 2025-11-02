@@ -115,9 +115,9 @@ function App() {
 
             <div className="font-nt-somic space-y-8.5 mb-10">
               {/* 1 */}
-              <div className="relative bg-[#d0c3fd] overflow-hidden rounded-[40px] pt-5 pr-5 pb-7.5 pl-6">
+              <div className="relative bg-[#d0c3fd] overflow-hidden rounded-[40px] pt-5 pr-5 pb-5 pl-6">
                 <div className="relative z-20">
-                  <div className="flex justify-between gap-5 mb-24.5">
+                  <div className="flex justify-between gap-5 mb-20">
                     <div>
                       <h4 className="font-bold leading-[120%] text-[25px] mb-1.5">
                         Название Заведения
@@ -156,13 +156,12 @@ function App() {
                       </svg>
                     </button>
                   </div>
-
                   <a href="#" className="relative block w-full max-w-43.25">
-                    <div className="relative z-10 size-11.5 bg-black rounded-full flex items-center justify-center">
+                    <div className="relative z-10 size-10 bg-black rounded-full flex items-center justify-center">
                       <img src="/img/chef.svg" alt="icon" />
                     </div>
 
-                    <div className="absolute z-0 top-1/2 -translate-y-1/2 left-4 border border-[#000000] text-[#090909]/80 rounded-full py-2 pl-9 px-5">
+                    <div className="text-sm absolute z-0 top-1/2 -translate-y-1/2 left-4 border border-[#000000] text-[#090909]/80 rounded-full py-2 pl-7 px-4">
                       Посмотреть
                     </div>
                   </a>
@@ -171,19 +170,19 @@ function App() {
                 <img
                   src="/img/asterisk.svg"
                   alt="icon"
-                  className="absolute z-0 bottom-0 right-0 translate-y-1/3 translate-x-[50%] size-75 object-fill"
+                  className="absolute z-0 bottom-0 right-0 translate-y-[40%] translate-x-[40%] size-75 object-fill"
                 />
                 {/* product.png */}
                 <img
                   src="/img/product.png"
                   alt="icon"
-                  className="absolute z-0 bottom-0 right-0 translate-y-1/3 translate-x-[50%] size-63 object-fill"
+                  className="absolute z-0 bottom-0 right-0 translate-y-[40%] translate-x-[40%] size-63 object-fill"
                 />
               </div>
-              {/* 1 */}
-              <div className="relative bg-[#c4e861] overflow-hidden rounded-[40px] pt-5 pr-5 pb-7.5 pl-6">
+              {/* 2 */}
+              <div className="relative bg-[#c4e861] overflow-hidden rounded-[40px] pt-5 pr-5 pb-5 pl-6">
                 <div className="relative z-20">
-                  <div className="flex justify-between gap-5 mb-24.5">
+                  <div className="flex justify-between gap-5 mb-20">
                     <div>
                       <h4 className="font-bold leading-[120%] text-[25px] mb-1.5">
                         Название Заведения
@@ -222,13 +221,12 @@ function App() {
                       </svg>
                     </button>
                   </div>
-
                   <a href="#" className="relative block w-full max-w-43.25">
-                    <div className="relative z-10 size-11.5 bg-black rounded-full flex items-center justify-center">
+                    <div className="relative z-10 size-10 bg-black rounded-full flex items-center justify-center">
                       <img src="/img/chef.svg" alt="icon" />
                     </div>
 
-                    <div className="absolute z-0 top-1/2 -translate-y-1/2 left-4 border border-[#000000] text-[#090909]/80 rounded-full py-2 pl-9 px-5">
+                    <div className="text-sm absolute z-0 top-1/2 -translate-y-1/2 left-4 border border-[#000000] text-[#090909]/80 rounded-full py-2 pl-7 px-4">
                       Посмотреть
                     </div>
                   </a>
@@ -237,19 +235,19 @@ function App() {
                 <img
                   src="/img/asterisk.svg"
                   alt="icon"
-                  className="absolute z-0 bottom-0 right-0 translate-y-1/3 translate-x-[50%] size-75 object-fill"
+                  className="absolute z-0 bottom-0 right-0 translate-y-[40%] translate-x-[40%] size-75 object-fill"
                 />
                 {/* product.png */}
                 <img
                   src="/img/product.png"
                   alt="icon"
-                  className="absolute z-0 bottom-0 right-0 translate-y-1/3 translate-x-[50%] size-63 object-fill"
+                  className="absolute z-0 bottom-0 right-0 translate-y-[40%] translate-x-[40%] size-63 object-fill"
                 />
               </div>
-              {/* 1 */}
-              <div className="relative bg-[#6f9afa] overflow-hidden rounded-[40px] pt-5 pr-5 pb-7.5 pl-6">
+              {/* 3 */}
+              <div className="relative bg-[#6f9afa] overflow-hidden rounded-[40px] pt-5 pr-5 pb-5 pl-6">
                 <div className="relative z-20">
-                  <div className="flex justify-between gap-5 mb-24.5">
+                  <div className="flex justify-between gap-5 mb-20">
                     <div>
                       <h4 className="font-bold leading-[120%] text-[25px] mb-1.5">
                         Название Заведения
@@ -288,13 +286,12 @@ function App() {
                       </svg>
                     </button>
                   </div>
-
                   <a href="#" className="relative block w-full max-w-43.25">
-                    <div className="relative z-10 size-11.5 bg-black rounded-full flex items-center justify-center">
+                    <div className="relative z-10 size-10 bg-black rounded-full flex items-center justify-center">
                       <img src="/img/chef.svg" alt="icon" />
                     </div>
 
-                    <div className="absolute z-0 top-1/2 -translate-y-1/2 left-4 border border-[#000000] text-[#090909]/80 rounded-full py-2 pl-9 px-5">
+                    <div className="text-sm absolute z-0 top-1/2 -translate-y-1/2 left-4 border border-[#000000] text-[#090909]/80 rounded-full py-2 pl-7 px-4">
                       Посмотреть
                     </div>
                   </a>
@@ -303,13 +300,13 @@ function App() {
                 <img
                   src="/img/asterisk.svg"
                   alt="icon"
-                  className="absolute z-0 bottom-0 right-0 translate-y-1/3 translate-x-[50%] size-75 object-fill"
+                  className="absolute z-0 bottom-0 right-0 translate-y-[40%] translate-x-[40%] size-75 object-fill"
                 />
                 {/* product.png */}
                 <img
                   src="/img/product.png"
                   alt="icon"
-                  className="absolute z-0 bottom-0 right-0 translate-y-1/3 translate-x-[50%] size-63 object-fill"
+                  className="absolute z-0 bottom-0 right-0 translate-y-[40%] translate-x-[40%] size-63 object-fill"
                 />
               </div>
             </div>
