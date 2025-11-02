@@ -94,7 +94,7 @@ function App() {
 
       {/* ==== Categories ==== */}
       <section className="inner-curve-section relative">
-        <div className="relative inner-curve !rounded-b-none">
+        <div className="relative inner-curve bg-white rounded-3xl !rounded-b-none">
           <div className="w-full max-w-93.75 mx-auto mb-3.5 px-3.5 pt-12.5">
             <div className="flex items-center justify-between gap-5 mb-4">
               <h4 className="font-bold text-[21px] text-black">Категориии</h4>
