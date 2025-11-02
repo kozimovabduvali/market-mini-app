@@ -171,13 +171,13 @@ function App() {
                 <img
                   src="/img/asterisk.svg"
                   alt="icon"
-                  className="absolute z-0 bottom-0 right-0 translate-y-1/3 translate-x-1/3 size-75 object-fill"
+                  className="absolute z-0 bottom-0 right-0 translate-y-1/3 translate-x-[50%] size-75 object-fill"
                 />
                 {/* product.png */}
                 <img
                   src="/img/product.png"
                   alt="icon"
-                  className="absolute z-0 bottom-0 right-0 translate-y-1/4 translate-x-1/3 size-63 object-fill"
+                  className="absolute z-0 bottom-0 right-0 translate-y-1/3 translate-x-[50%] size-63 object-fill"
                 />
               </div>
               {/* 1 */}
@@ -237,13 +237,13 @@ function App() {
                 <img
                   src="/img/asterisk.svg"
                   alt="icon"
-                  className="absolute z-0 bottom-0 right-0 translate-y-1/3 translate-x-1/3 size-75 object-fill"
+                  className="absolute z-0 bottom-0 right-0 translate-y-1/3 translate-x-[50%] size-75 object-fill"
                 />
                 {/* product.png */}
                 <img
                   src="/img/product.png"
                   alt="icon"
-                  className="absolute z-0 bottom-0 right-0 translate-y-1/4 translate-x-1/3 size-63 object-fill"
+                  className="absolute z-0 bottom-0 right-0 translate-y-1/3 translate-x-[50%] size-63 object-fill"
                 />
               </div>
               {/* 1 */}
@@ -303,13 +303,13 @@ function App() {
                 <img
                   src="/img/asterisk.svg"
                   alt="icon"
-                  className="absolute z-0 bottom-0 right-0 translate-y-1/3 translate-x-1/3 size-75 object-fill"
+                  className="absolute z-0 bottom-0 right-0 translate-y-1/3 translate-x-[50%] size-75 object-fill"
                 />
                 {/* product.png */}
                 <img
                   src="/img/product.png"
                   alt="icon"
-                  className="absolute z-0 bottom-0 right-0 translate-y-1/4 translate-x-1/3 size-63 object-fill"
+                  className="absolute z-0 bottom-0 right-0 translate-y-1/3 translate-x-[50%] size-63 object-fill"
                 />
               </div>
             </div>
