@@ -113,10 +113,10 @@ function App() {
               ))}
             </div>
 
-            <div className="font-nt-somic">
+            <div className="font-nt-somic space-y-8.5 mb-10">
               {/* 1 */}
-              <div className="relative bg-[#d0c3fd] rounded-[40px] min-h-76 pt-5 pr-5 pb-7.5 pl-6">
-                <div className="relative z-10">
+              <div className="relative bg-[#d0c3fd] overflow-hidden rounded-[40px] pt-5 pr-5 pb-7.5 pl-6">
+                <div className="relative z-20">
                   <div className="flex justify-between gap-5 mb-24.5">
                     <div>
                       <h4 className="font-bold leading-[120%] text-[25px] mb-1.5">
@@ -157,8 +157,160 @@ function App() {
                     </button>
                   </div>
 
-                  <a href="#" className="relative"></a>
+                  <a href="#" className="relative block w-full max-w-43.25">
+                    <div className="relative z-10 size-11.5 bg-black rounded-full flex items-center justify-center">
+                      <img src="/img/chef.svg" alt="icon" />
+                    </div>
+
+                    <div className="absolute z-0 top-1/2 -translate-y-1/2 left-4 border border-[#000000] text-[#090909]/80 rounded-full py-2 pl-9 px-5">
+                      Посмотреть
+                    </div>
+                  </a>
                 </div>
+
+                <img
+                  src="/img/asterisk.svg"
+                  alt="icon"
+                  className="absolute z-0 bottom-0 right-0 translate-y-1/3 translate-x-1/3 size-75 object-fill"
+                />
+                {/* product.png */}
+                <img
+                  src="/img/product.png"
+                  alt="icon"
+                  className="absolute z-0 bottom-0 right-0 translate-y-1/4 translate-x-1/3 size-63 object-fill"
+                />
+              </div>
+              {/* 1 */}
+              <div className="relative bg-[#c4e861] overflow-hidden rounded-[40px] pt-5 pr-5 pb-7.5 pl-6">
+                <div className="relative z-20">
+                  <div className="flex justify-between gap-5 mb-24.5">
+                    <div>
+                      <h4 className="font-bold leading-[120%] text-[25px] mb-1.5">
+                        Название Заведения
+                      </h4>
+                      <div className="text-[15px] text-[#090909]/80 flex items-center gap-1">
+                        <svg
+                          width={11}
+                          height={18}
+                          viewBox="0 0 11 18"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            fillRule="evenodd"
+                            clipRule="evenodd"
+                            d="M7.3893 0.359748L6.68932 7.65013H10.6838C10.7431 7.6501 10.8012 7.66654 10.8518 7.69765C10.9025 7.72876 10.9437 7.77334 10.971 7.82654C10.9983 7.87973 11.0106 7.93948 11.0066 7.99926C11.0025 8.05904 10.9823 8.11656 10.9482 8.16552L4.18992 17.8847C4.1466 17.9393 4.08702 17.9783 4.02005 17.9958C3.95307 18.0134 3.88227 18.0087 3.81817 17.9823C3.75407 17.956 3.70009 17.9094 3.66426 17.8496C3.62843 17.7897 3.61266 17.7198 3.61929 17.6501L4.31927 10.3597H0.324802C0.264425 10.36 0.205179 10.3432 0.153772 10.3112C0.102364 10.2792 0.060849 10.2332 0.0339266 10.1786C0.00700426 10.124 -0.00424987 10.0628 0.00143845 10.002C0.00712678 9.94126 0.0295303 9.88331 0.0661125 9.83475L6.81486 0.125133C6.84586 0.0851872 6.88563 0.0530897 6.93103 0.0313837C6.97642 0.00967768 7.0262 -0.00104016 7.0764 7.95206e-05C7.12661 0.0011992 7.17587 0.0141256 7.22027 0.0378344C7.26468 0.0615432 7.30301 0.0953826 7.33224 0.136671L7.3893 0.359748Z"
+                            fill="black"
+                          />
+                        </svg>
+                        <span>Категория 1</span>
+                      </div>
+                    </div>
+
+                    <button className="size-9.5 flex items-center justify-center bg-black shrink-0 rounded-full">
+                      <svg
+                        width={18}
+                        height={16}
+                        viewBox="0 0 18 16"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M15.1645 0.127769C14.4581 -0.0286097 13.7268 -0.0240491 13.0223 0.141128C12.3178 0.306305 11.6574 0.628062 11.0878 1.08362C10.19 1.76381 9.47243 2.66307 9.00035 3.69965C8.52827 2.66307 7.81071 1.76381 6.9129 1.08362C6.34911 0.617211 5.68888 0.288683 4.98243 0.123044C4.27599 -0.0425953 3.54197 -0.0409791 2.83623 0.127769C-0.0862032 0.832084 -0.208995 4.0015 0.134821 5.56105C0.773336 9.81209 8.43551 15.673 8.77933 15.9245C8.84393 15.9719 8.92095 15.9982 9.00035 16C9.07905 15.9984 9.15536 15.9721 9.21892 15.9245C9.53818 15.673 17.2004 9.81209 17.8413 5.58621C18.2343 4.0015 18.0869 0.832084 15.1645 0.127769Z"
+                          fill="white"
+                        />
+                      </svg>
+                    </button>
+                  </div>
+
+                  <a href="#" className="relative block w-full max-w-43.25">
+                    <div className="relative z-10 size-11.5 bg-black rounded-full flex items-center justify-center">
+                      <img src="/img/chef.svg" alt="icon" />
+                    </div>
+
+                    <div className="absolute z-0 top-1/2 -translate-y-1/2 left-4 border border-[#000000] text-[#090909]/80 rounded-full py-2 pl-9 px-5">
+                      Посмотреть
+                    </div>
+                  </a>
+                </div>
+
+                <img
+                  src="/img/asterisk.svg"
+                  alt="icon"
+                  className="absolute z-0 bottom-0 right-0 translate-y-1/3 translate-x-1/3 size-75 object-fill"
+                />
+                {/* product.png */}
+                <img
+                  src="/img/product.png"
+                  alt="icon"
+                  className="absolute z-0 bottom-0 right-0 translate-y-1/4 translate-x-1/3 size-63 object-fill"
+                />
+              </div>
+              {/* 1 */}
+              <div className="relative bg-[#6f9afa] overflow-hidden rounded-[40px] pt-5 pr-5 pb-7.5 pl-6">
+                <div className="relative z-20">
+                  <div className="flex justify-between gap-5 mb-24.5">
+                    <div>
+                      <h4 className="font-bold leading-[120%] text-[25px] mb-1.5">
+                        Название Заведения
+                      </h4>
+                      <div className="text-[15px] text-[#090909]/80 flex items-center gap-1">
+                        <svg
+                          width={11}
+                          height={18}
+                          viewBox="0 0 11 18"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            fillRule="evenodd"
+                            clipRule="evenodd"
+                            d="M7.3893 0.359748L6.68932 7.65013H10.6838C10.7431 7.6501 10.8012 7.66654 10.8518 7.69765C10.9025 7.72876 10.9437 7.77334 10.971 7.82654C10.9983 7.87973 11.0106 7.93948 11.0066 7.99926C11.0025 8.05904 10.9823 8.11656 10.9482 8.16552L4.18992 17.8847C4.1466 17.9393 4.08702 17.9783 4.02005 17.9958C3.95307 18.0134 3.88227 18.0087 3.81817 17.9823C3.75407 17.956 3.70009 17.9094 3.66426 17.8496C3.62843 17.7897 3.61266 17.7198 3.61929 17.6501L4.31927 10.3597H0.324802C0.264425 10.36 0.205179 10.3432 0.153772 10.3112C0.102364 10.2792 0.060849 10.2332 0.0339266 10.1786C0.00700426 10.124 -0.00424987 10.0628 0.00143845 10.002C0.00712678 9.94126 0.0295303 9.88331 0.0661125 9.83475L6.81486 0.125133C6.84586 0.0851872 6.88563 0.0530897 6.93103 0.0313837C6.97642 0.00967768 7.0262 -0.00104016 7.0764 7.95206e-05C7.12661 0.0011992 7.17587 0.0141256 7.22027 0.0378344C7.26468 0.0615432 7.30301 0.0953826 7.33224 0.136671L7.3893 0.359748Z"
+                            fill="black"
+                          />
+                        </svg>
+                        <span>Категория 1</span>
+                      </div>
+                    </div>
+
+                    <button className="size-9.5 flex items-center justify-center bg-black shrink-0 rounded-full">
+                      <svg
+                        width={18}
+                        height={16}
+                        viewBox="0 0 18 16"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M15.1645 0.127769C14.4581 -0.0286097 13.7268 -0.0240491 13.0223 0.141128C12.3178 0.306305 11.6574 0.628062 11.0878 1.08362C10.19 1.76381 9.47243 2.66307 9.00035 3.69965C8.52827 2.66307 7.81071 1.76381 6.9129 1.08362C6.34911 0.617211 5.68888 0.288683 4.98243 0.123044C4.27599 -0.0425953 3.54197 -0.0409791 2.83623 0.127769C-0.0862032 0.832084 -0.208995 4.0015 0.134821 5.56105C0.773336 9.81209 8.43551 15.673 8.77933 15.9245C8.84393 15.9719 8.92095 15.9982 9.00035 16C9.07905 15.9984 9.15536 15.9721 9.21892 15.9245C9.53818 15.673 17.2004 9.81209 17.8413 5.58621C18.2343 4.0015 18.0869 0.832084 15.1645 0.127769Z"
+                          fill="white"
+                        />
+                      </svg>
+                    </button>
+                  </div>
+
+                  <a href="#" className="relative block w-full max-w-43.25">
+                    <div className="relative z-10 size-11.5 bg-black rounded-full flex items-center justify-center">
+                      <img src="/img/chef.svg" alt="icon" />
+                    </div>
+
+                    <div className="absolute z-0 top-1/2 -translate-y-1/2 left-4 border border-[#000000] text-[#090909]/80 rounded-full py-2 pl-9 px-5">
+                      Посмотреть
+                    </div>
+                  </a>
+                </div>
+
+                <img
+                  src="/img/asterisk.svg"
+                  alt="icon"
+                  className="absolute z-0 bottom-0 right-0 translate-y-1/3 translate-x-1/3 size-75 object-fill"
+                />
+                {/* product.png */}
+                <img
+                  src="/img/product.png"
+                  alt="icon"
+                  className="absolute z-0 bottom-0 right-0 translate-y-1/4 translate-x-1/3 size-63 object-fill"
+                />
               </div>
             </div>
           </div>
