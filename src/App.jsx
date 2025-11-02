@@ -161,7 +161,7 @@ function App() {
                       <img src="/img/chef.svg" alt="icon" />
                     </div>
 
-                    <div className="text-sm absolute z-0 top-1/2 -translate-y-1/2 left-4 border border-[#000000] text-[#090909]/80 rounded-full py-2 pl-7 px-4">
+                    <div className="text-sm absolute z-0 top-1/2 -translate-y-1/2 left-2 border border-[#000000] text-[#090909]/80 rounded-full py-2 pl-7 px-4">
                       Посмотреть
                     </div>
                   </a>
@@ -226,7 +226,7 @@ function App() {
                       <img src="/img/chef.svg" alt="icon" />
                     </div>
 
-                    <div className="text-sm absolute z-0 top-1/2 -translate-y-1/2 left-4 border border-[#000000] text-[#090909]/80 rounded-full py-2 pl-7 px-4">
+                    <div className="text-sm absolute z-0 top-1/2 -translate-y-1/2 left-2 border border-[#000000] text-[#090909]/80 rounded-full py-2 pl-7 px-4">
                       Посмотреть
                     </div>
                   </a>
@@ -291,7 +291,7 @@ function App() {
                       <img src="/img/chef.svg" alt="icon" />
                     </div>
 
-                    <div className="text-sm absolute z-0 top-1/2 -translate-y-1/2 left-4 border border-[#000000] text-[#090909]/80 rounded-full py-2 pl-7 px-4">
+                    <div className="text-sm absolute z-0 top-1/2 -translate-y-1/2 left-2 border border-[#000000] text-[#090909]/80 rounded-full py-2 pl-7 px-4">
                       Посмотреть
                     </div>
                   </a>
